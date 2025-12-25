@@ -54,7 +54,7 @@ src/
 ## API Routes
 
 ### Auth
-- POST /api/auth/signup
+- POST /api/auth/register
 - POST /api/auth/login
 ### Tasks
 - GET /api/tasks
