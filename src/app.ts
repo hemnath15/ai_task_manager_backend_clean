@@ -11,5 +11,6 @@ app.use(express.json());
 app.use("/api/tasks", require("./routes/task.routes"));
 app.use("/api/auth", router);
 app.use("/api/insights", insightsRoutes);
+app.set("etag", false);
 
 export default app;
